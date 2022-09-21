@@ -1,3 +1,30 @@
+html {
+background-color: #0066cc;
+}
+
+body {
+background-color: white;
+}
+
+h1 {
+font-family: Helvetica;
+}
+
+.indexBody {
+background-color: #0066cc;
+}
+
+.indexH2 {
+margin-top: 250px;
+font-size: 150px;
+}
+
+.navbar-fixed-top {
+margin-left: 750px;
+background-color: #0066cc;
+text-decoration: none;
+}
+
 .body-content {
     margin-top: 72px;
 }
@@ -8,7 +35,7 @@ td, th {
 
 th {
     text-align: center;
-}
+    }
 
 td {
     vertical-align: top;
@@ -59,4 +86,17 @@ div.job-listing {
     border: 1px solid #e4e4e4;
     width: 80%;
     background-color: #e4e4e4;
+}
+
+.form-group {
+
+     text-align: center;
+     margin-left: 400px;
+     margin-right: -165px;
+    }
+
+.addJobButton {
+
+   margin-left: 540px;
+
 }

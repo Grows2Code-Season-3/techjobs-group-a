@@ -5,10 +5,13 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: Monaco;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
+
+
 body {
   margin: 0;
 }
@@ -1222,8 +1225,10 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: center;
+  margin-bottom: auto;
+  text-align: center;
+  font: Helvetica;
 }
 h1 small,
 .h1 small,
@@ -1268,7 +1273,7 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 45px;
 }
 h3,
 .h3 {
