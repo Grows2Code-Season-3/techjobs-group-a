@@ -55,5 +55,39 @@ public class SkillController {
             return "redirect:../";
         }
     }
+    @GetMapping("edit/{skillId}")
+    public String displayEditForm(Model model, @PathVariable int skillId) {
+
+        Optional<Skill> optSkill = skillRepository.findById(skillId);
+        if (optSkill.isPresent()) {
+            Skill skill = optSkill.get();
+            model.addAttribute("skill", skill);
+            model.addAttribute("title", "Edit Skill " + skill.getName() + " (id=" + skill.getId() + ")");
+        } else {
+            // do something to handle the error situation
+        }
+
+        return "skills/edit";
+    }
+
+    @PostMapping("edit/{skillId}")
+    public String processEditForm(@ModelAttribute @Valid Skill newSkill,
+                                  @PathVariable int skillId
+                                  ) {
+
+        Optional<Skill> optSkill = skillRepository.findById(skillId);
+        if (optSkill.isPresent()) {
+            Skill skill = optSkill.get();
+            skill.setName(newSkill.getName());
+            skill.setDescription(newSkill.getDescription());
+            skillRepository.save(skill);
+        } else {
+            // do something to handle the error situation
+        }
+
+        return "redirect:../";
+    }
+
+
 
 }
