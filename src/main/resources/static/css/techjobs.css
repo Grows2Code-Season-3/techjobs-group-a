@@ -16,13 +16,55 @@ background-color: #0066cc;
 
 .indexH2 {
 margin-top: 250px;
+margin-bottom: 700px;
 font-size: 150px;
+
 }
 
-.navbar-fixed-top {
-margin-left: 750px;
+.navbar {
 background-color: #0066cc;
-text-decoration: none;
+/*margin-right: 200px;*/
+position: absolute;
+
+}
+
+.navbar-collapse {
+background-color: #0066cc;
+padding-top: 55px;
+}
+
+
+
+.navbar-fixed-top {
+margin-left: 400px;
+background-color: #0066cc;
+font-size: 45px;
+
+}
+
+.navbar-brand {
+font-size: 45px;
+padding-top: 70px;
+padding-right: 60px;
+margin-right: 50px;
+}
+
+.unicorn {
+width: 100px;
+height: 100px;
+/*float: left;*/
+position: absolute;
+left: 0;
+top: 0;
+
+}
+
+
+.logo {
+display: block;
+margin-left: 425px;
+padding-top: 50px;
+
 }
 
 .body-content {
