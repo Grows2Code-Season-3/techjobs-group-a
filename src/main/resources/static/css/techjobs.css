@@ -1,3 +1,72 @@
+html {
+background-color: #0066cc;
+}
+
+body {
+background-color: white;
+}
+
+h1 {
+font-family: Helvetica;
+}
+
+.indexBody {
+background-color: #0066cc;
+}
+
+.indexH2 {
+margin-top: 250px;
+margin-bottom: 700px;
+font-size: 150px;
+
+}
+
+.navbar {
+background-color: #0066cc;
+/*margin-right: 200px;*/
+position: absolute;
+
+}
+
+.navbar-collapse {
+background-color: #0066cc;
+padding-top: 55px;
+}
+
+
+
+.navbar-fixed-top {
+margin-left: 400px;
+background-color: #0066cc;
+font-size: 45px;
+
+}
+
+.navbar-brand {
+font-size: 45px;
+padding-top: 70px;
+padding-right: 60px;
+margin-right: 50px;
+}
+
+.unicorn {
+width: 100px;
+height: 100px;
+/*float: left;*/
+position: absolute;
+left: 0;
+top: 0;
+
+}
+
+
+.logo {
+display: block;
+margin-left: 425px;
+padding-top: 50px;
+
+}
+
 .body-content {
     margin-top: 72px;
 }
@@ -8,7 +77,7 @@ td, th {
 
 th {
     text-align: center;
-}
+    }
 
 td {
     vertical-align: top;
@@ -59,4 +128,17 @@ div.job-listing {
     border: 1px solid #e4e4e4;
     width: 80%;
     background-color: #e4e4e4;
+}
+
+.form-group {
+
+     text-align: center;
+     margin-left: 400px;
+     margin-right: -165px;
+    }
+
+.addJobButton {
+
+   margin-left: 540px;
+
 }

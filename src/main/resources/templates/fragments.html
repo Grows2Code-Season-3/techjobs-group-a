@@ -9,12 +9,15 @@
     <script type="text/javascript" th:src="@{/js/bootstrap.js}"></script>
 
     <title th:text="'TechJobs' + ${title == null ? '' : ' :: ' + title}">TechJobs</title>
+
 </head>
 
 <body>
 
 <div th:fragment="page-header" class="navbar navbar-inverse navbar-fixed-top">
+
     <div class="container">
+        <img class="unicorn" th:src="@{/img/unicorn_turd.jpeg}" alt="unicorn">
         <div class="navbar-header">
             <a th:href="@{/}" class="navbar-brand">TechJobs</a>
         </div>
